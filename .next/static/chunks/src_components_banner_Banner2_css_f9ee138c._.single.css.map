@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/banner/Banner2.css"],"sourcesContent":[".custom-slide {\r\n  width: 200px;\r\n  height: 200px;\r\n  border-radius: 20px;\r\n  border: 1px solid #e6e6e6;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background-size: cover;\r\n}\r\n\r\n.custom-slide .custom-slide-content {\r\n  background-color: rgba(0, 0, 0, 0.385);\r\n  color: white;\r\n  position: relative;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 200%; \r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  flex-direction: column;\r\n  \r\n}\r\n\r\n.mySwiper {\r\n  width: 100%;\r\n  height: 250px; /* Or whatever height fits your slide */\r\n  overflow: visible;\r\n}\r\n\r\n.custom-slide .custom-slide-content h2 {\r\n  font-size: 1.5rem;\r\n  font-weight: 900;\r\n  text-align: center;\r\n  margin-bottom: 1rem;\r\n}\r\n\r\n.custom-slide .custom-slide-content p {\r\n  font-size: 1rem;\r\n  font-weight: 500;\r\n  text-align: center;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAWA;;;;;;;;;;;;;;AAeA;;;;;;AAMA;;;;;;;AAOA"}}]
+}

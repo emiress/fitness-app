@@ -1,0 +1,104 @@
+/* [project]/src/components/banner/Banner1.css [app-client] (css) */
+.meters {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  display: flex;
+}
+
+.meters .card {
+  cursor: pointer;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+  transition: all .3s;
+  display: flex;
+  box-shadow: 0 0 10px #0003;
+}
+
+.meters .card:first-child {
+  background: linear-gradient(90deg, #ffff7c 0%, #ffb47e 100%);
+}
+
+.meters .card:nth-child(2) {
+  background: linear-gradient(90deg, #ff8080 0%, #ffb47e 100%);
+}
+
+.meters .card:nth-child(3) {
+  background: linear-gradient(90deg, #ffe38d 0%, #ffb784 100%);
+}
+
+.meters .card:nth-child(4) {
+  background: linear-gradient(90deg, #b1ff7d 0%, #7effb784 100%);
+}
+
+.meters .card:nth-child(5) {
+  background: linear-gradient(90deg, #80ffe38d 0%, #7effb784 100%);
+}
+
+.meters .card:nth-child(6) {
+  background: linear-gradient(90deg, #ebace7 0%, #693c5b 100%);
+}
+
+.meters .card-header {
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  display: flex;
+}
+
+.meters .card-header-box {
+  aspect-ratio: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  display: flex;
+  box-shadow: 0 0 10px #0003;
+}
+
+.meters .card-header-box-name {
+  color: #333;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.meters .card-header-box-value {
+  color: #333;
+  font-size: 14px;
+}
+
+.meters .card button {
+  color: #212121;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  border-radius: 15px;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 8px;
+  font-size: 14px;
+  transition: all .3s;
+  display: flex;
+}
+
+.meters .card button:hover {
+  color: #fff;
+  background-color: #212121;
+}
+
+.meters .textincircle {
+  color: #333;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=src_components_banner_Banner1_css_f9ee138c._.single.css.map*/

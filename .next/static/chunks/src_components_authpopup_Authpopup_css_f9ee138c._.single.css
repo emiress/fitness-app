@@ -1,0 +1,65 @@
+/* [project]/src/components/authpopup/Authpopup.css [app-client] (css) */
+.popup {
+  background-color: #000000c0;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.authform {
+  background-color: #000;
+  border-radius: 10px;
+  width: 50%;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 0 10px #494949aa;
+}
+
+.authform .left {
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  display: flex;
+}
+
+.authform .left img {
+  object-fit: contain;
+  width: 80%;
+}
+
+.authform .right {
+  border-left: 1px solid var(--col1);
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+}
+
+.authform .right h1 {
+  color: var(--col1);
+  text-align: center;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.authform .right form {
+  flex-direction: column;
+  gap: 10px;
+  display: flex;
+}
+
+.authform p {
+  margin: 10px 0;
+}
+
+.form_input_leftright {
+  gap: 10px;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_authpopup_Authpopup_css_f9ee138c._.single.css.map*/

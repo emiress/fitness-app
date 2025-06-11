@@ -1,0 +1,53 @@
+/* [project]/src/components/navbar/NavBar.css [app-client] (css) */
+nav {
+  height: 60px;
+  padding: 0 50px 0 50x;
+  z-index: 10;
+  color: #fff;
+  background-color: #1a1a1a;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 4px #00000080;
+}
+
+nav img {
+  width: auto;
+  height: 50px;
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.navbar-image {
+  align-items: center;
+  display: flex;
+}
+
+nav a:hover {
+  color: #ffc20e;
+}
+
+nav button {
+  background-color: var(--col1);
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  transition: all .3s ease-in-out;
+}
+
+/*# sourceMappingURL=src_components_navbar_NavBar_css_f9ee138c._.single.css.map*/

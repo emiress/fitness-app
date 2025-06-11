@@ -1,0 +1,85 @@
+/* [project]/src/app/workouts/[type]/workoutPage.css [app-client] (css) */
+.workout {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.workout__excercises {
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  display: flex;
+}
+
+.workout__excercise {
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+}
+
+.workout__excercise--reverse {
+  flex-direction: row-reverse;
+}
+
+.workout__excercise__image img {
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.workout__exercise__content {
+  text-align: left;
+  color: gray;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.workout__excercise--reverse .workout__exercise__content {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.workout__exercise__content h2 {
+  -webkit-text-stroke: 1px #333;
+  color: #0000;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.workout__exercise__content span {
+  color: #fff;
+  background-color: var(--col1);
+  border-radius: 35px;
+  width: fit-content;
+  padding: 5px 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.workout__exercise__content p {
+  color: var(--col1);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.workout__excercises h3 {
+  -webkit-text-stroke: 1px var(--col1);
+  color: #0000;
+  text-align: center;
+  border: 1px solid var(--col1);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  width: 15rem;
+  font-size: 10rem;
+  font-weight: 900;
+}
+
+
+/*# sourceMappingURL=src_app_workouts_%5Btype%5D_workoutPage_86019705.css.map*/

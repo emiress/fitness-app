@@ -1,0 +1,46 @@
+/* [project]/src/components/banner/Banner2.css [app-client] (css) */
+.custom-slide {
+  background-size: cover;
+  border: 1px solid #e6e6e6;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  display: flex;
+}
+
+.custom-slide .custom-slide-content {
+  color: #fff;
+  background-color: #00000062;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200%;
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 250px;
+  overflow: visible;
+}
+
+.custom-slide .custom-slide-content h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.custom-slide .custom-slide-content p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=src_components_banner_Banner2_css_f9ee138c._.single.css.map*/
